@@ -5,38 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Morix AudioVisual</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="../estilos.css">
     <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
                     
 </head>
     <body>
-        <header >
-               <nav class="nav">
-                    <ul class="menu">
-                       <li><a href="./secciones/nosotros.html" class="nav-link">Nosotros</a></li>
-                       <li><a href="./secciones/servicios.html" class="nav-link">Servicios</a></li>
-                       <li><a href="./index.html"><img src="./imagenes/recurso2.png" height="35px"></a></li>
-                       <li><a href="./secciones/galeria.html" class="nav-link">Galeria</a></li>
-                       <li><a href="./secciones/contacto.html" class="nav-link">Contacto</a></li>
-                    </ul>
-                </nav>
-            </header>
-                <main>
-                <section id="Fondo">
-                        <img src="./imagenes/inicio.jpg" class="img-fluid" alt="...">
-                </section>
-                <section id="section">        
-                        <div id="section__card">
+        <header>
+            <nav class="nav">
+                <ul class="menu">
+                   <li><a href="./secciones/nosotros.html" class="nav-link">Nosotros</a></li>
+                   <li><a href="./secciones/servicios.html" class="nav-link">Servicios</a></li>
+                   <li><a href="./index.html"><img src="./imagenes/morix1.png" height="50px"></a></li>
+                   <li><a href="./secciones/galeria.html" class="nav-link">Galeria</a></li>
+                   <li><a href="./secciones/contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+                 
+              <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+              </div>
+               <div class="carousel-inner">
+                   <div class="carousel-item active">
+                    <img src="../Imagenes/Inicio.jpg" class="img-fluid" w-100 alt="">
+                <svg class="bd-placeholder-img" width="100%" height="80%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+        
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                    <h1>Para esa noche soñada..</h1>
+                    <p>Los acompañamos registrando la fiesta que siempre soñaron</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Más Info</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <img src="../Imagenes/inicio2.jpg" class="img-fluid" w-100 alt="">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+                
+        
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>Tus XV años serán especiales..</h1>
+                    <p>Lo unico que deberás preocuparte, es por divertirte y pasarla bien!</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Más Info</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <img src="../Imagenes/inicio3.jpg" class="img-fluid" w-100 alt="">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+        
+                <div class="container">
+                  <div class="carousel-caption text-end">
+                    <h1>Acompañandote hasta el, si quiero!</h1>
+                    <p>Un momento muy emotivo y especial que querras volver a ver una y otra vez.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Más info</a></p>
+                  </div>
+                </div>
+              </div>
+              </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </nav> 
+        </header>
+        <main>
+            <section id="section">        
+                <div id="section__card">
                         <h2>Bienvenidos</h2>
                         <p> Hola!<br>
                            Queremos darte la bienvenida a nuestra página web. Aquí, podrás encontrar mas información sobre nuestros servicios, quienes somos, nuestras fotografias y videos, y claro, ponerte en contacto con nosotros para reservar la fecha de tu evento o hacer las consultas que quieras. Nuestro compromiso es ofrecerte la mejor calidad y servicio, en ese evento tan importante para vos.
                             Puedes seguirnos en nuestras redes sociales, para no perderte ninguna novedad.<br>
                             Nos leemos!</p>
-                    </div>
-                </section> 
-                </main> 
+                </div>
+            </section> 
+        </main> 
                       
         <footer id="main-footer">
             <p>&copy; 2022 <a href="">morixaudiovisual.com</a></p>
