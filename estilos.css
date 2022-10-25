@@ -19,6 +19,8 @@ body {
     text-decoration: none;
     width: 100% ;
     background-size: cover;
+    padding: 0%;
+    }
     
    
 }
@@ -87,7 +89,13 @@ ul li a{
         justify-content: center;
         font-size:  2rem;
         font-family: 'Gotham', sans-serif; 
+        padding: 40px;
       }
+
+#section__card p {
+  font-size: 1rem;
+}
+    
 
 #texto {
         margin: auto;
@@ -99,11 +107,15 @@ ul li a{
         font-size:  2rem;
         font-family: 'Gotham', sans-serif;
         padding: 15px;
-        background-color: #27668C;
+        background-color: transparent;
         border-radius: 15px;
         color: white;
 }
 
+#section__negro__texto1 {
+  font-size: 1rem;
+  color: #0e0e0e;
+}
 .contenedor {
 	width: 100%;
 	margin:auto;
@@ -166,7 +178,7 @@ background: #fff;
 	border-radius: 10px;  
 	padding-top: 30px;
 	padding-bottom: 20px;  
-  background-color: #fbfbfb; 
+  background-color: #2d3b40; 
   padding-left: 30px; 
 }
 
@@ -241,7 +253,7 @@ h1{
 	font-size: 39px;  
 	text-align: letf; 
 	padding-bottom: 20px; 
-	color: #2d3b40;
+	color: #fff;
 }
 
 
@@ -254,9 +266,12 @@ h3{
 
 p{
 	font-size: 14px; 
-	color: #0e0e0e; 
+	color: #fff; 
 }
 
+.textoo {
+  color: black;
+}
 
 ::-webkit-input-placeholder {
  color: #a8a8a8;
@@ -278,7 +293,7 @@ p{
 	outline:0;
 	border: 1px solid #97d848;
 }
-*/
+
 .copyright H2 {
     width:100% ;
     height: 50%;
