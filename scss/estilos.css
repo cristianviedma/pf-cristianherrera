@@ -1,0 +1,296 @@
+@charset "UTF-8";
+@import url("http://fonts.cdnfonts.com/css/gotham");
+body {
+  margin: 0;
+  padding: 0;
+  color: #f2f2f2;
+}
+
+.menu {
+  margin: 0;
+  color: black;
+  background-color: transparent;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+  background-size: cover;
+  padding: 0%;
+}
+
+.icono {
+  width: 30px;
+}
+
+.menu li {
+  display: inline-flex;
+  margin: 0px;
+  padding: 20px;
+}
+
+.menu li a:hover {
+  color: black;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Gotham", sans-serif;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+#Fondo img {
+  width: 100%;
+}
+
+#Fondo__quienessomos img {
+  width: 100%;
+  height: 100%;
+}
+
+#Fondo__quienessomos p {
+  font-size: 3rem;
+  color: #2d3b40;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-150%, -50%);
+  font-family: "Gotham", sans-serif;
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+#Fondo__quienessomos__servicios img {
+  width: 80%;
+  height: 100%;
+}
+
+#section__card {
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: "Gotham", sans-serif;
+  padding: 40px;
+}
+
+#section__card p {
+  font-size: 1rem;
+}
+
+#texto {
+  margin: auto;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: "Gotham", sans-serif;
+  padding: 15px;
+  background-color: transparent;
+  border-radius: 15px;
+  color: white;
+}
+
+#section__negro__texto1 {
+  font-size: 1rem;
+  color: #0e0e0e;
+}
+
+.contenedor {
+  width: 100%;
+  margin: auto;
+  padding: 150px 10px;
+}
+
+/*cuadro de imagenes*/
+.card {
+  border-radius: 10px;
+  min-height: 300px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+}
+
+.card__textos {
+  height: auto;
+}
+
+/*Hace referencia al background del texto*/
+.textos {
+  margin: auto;
+  max-width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: "Gotham", sans-serif;
+  padding: 1px;
+  background-color: #27668C;
+  border-radius: 15px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
+/*Hace referencia a las columnas que forman las imagenes*/
+.contenedor-eventos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  height: auto;
+  width: auto;
+  background: #fff;
+}
+
+/* ---DISEÑO APLICADO AL FORMULARIO---*/
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #2d3b40;
+  padding-left: 30px;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2d3b40;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2d3b40;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+#contacto {
+  display: block;
+  float: center;
+}
+
+/*--BOTON ENVIAR--*/
+button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #2d3b40;
+  border-color: #2d3b40;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+
+/*--LE DA EL COLOR BLANCO AL TEXTO DEL BOTÓN--*/
+button p {
+  color: #fff;
+}
+
+span {
+  color: #2d3b40;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+h2 {
+  color: #f2f2f2;
+}
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #f2f2f2;
+}
+
+p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.textoo {
+  color: black;
+}
+
+::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.copyright H2 {
+  width: 100%;
+  height: 50%;
+  background-color: #27668C;
+}
+
+#main-footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+#main-footer p {
+  margin: 0;
+}
+
+#main-footer a {
+  color: white;
+}/*# sourceMappingURL=estilos.css.map */
