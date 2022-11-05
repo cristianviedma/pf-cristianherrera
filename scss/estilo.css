@@ -48,6 +48,7 @@ body {
   padding: 0;
   display: grid;
   grid-auto-flow: column;
+  grid-auto-columns: -webkit-max-content;
   grid-auto-columns: max-content;
   gap: 2em;
   justify-content: center;
@@ -558,7 +559,7 @@ ul li a{
     transition: all 0.5s ease;
 */
 #Fondo img {
-  width: 80%;
+  width: 100%;
 }
 
 #Fondo__quienessomos img {
@@ -976,6 +977,4 @@ p {
     margin-right: auto;
     margin-left: 0;
   }
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilo.css.map */
