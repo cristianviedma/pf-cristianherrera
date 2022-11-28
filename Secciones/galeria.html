@@ -5,33 +5,162 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="./css/normalize.css">
-<link rel="stylesheet" href="../css/estilos.css">
-    <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="../images/fabicon.ico"/>
+    <meta name="description"
+   
+    content="Hola,somos un equipo de fotógrafos de la ciudad de viedma, que brindan servicios audiovisuales para tus eventos">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="../css/estilo.css">
+    
 </head>
 <body>
-        <header >
-            <nav class="nav">
-                 <ul class="menu">
-                    <li><a href="./nosotros.html" class="nav-link">Nosotros</a></li>
-                    <li><a href="./servicios.html" class="nav-link">Servicios</a></li>
-                    <li><a href="../index.html"><img src="../Imagenes/morix1.png" height="50px"></a></li>
-                    <li><a href="./galeria.html" class="nav-link">Galeria</a></li>
-                    <li><a href="./contacto.html" class="nav-link">Contacto</a></li>
-                 </ul>
-             </nav>
-        </header>
-                     <section id="Fondo__quienessomos">
-                    <img id="Fondo__quienessomos__servicios" src="../Imagenes/galeria.jpg" class="img-fluid" alt="...">
-                            <p class="Fondo__titulo">Galeria</p>
-            </section>
+
+    <!-- comienza el header  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <img src="../images/fabicon.ico" alt="" height="40px"></i> Morix Audiovisual </a>
+
+    <nav class="navbar">
+        <div id="nav-close" class="fas fa-times"></div>
+        <a href="../index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="contacto.html">Contacto</a>
+        
+    </nav>
+    
+  </header>
+
+<!-- termina el header  -->
+
+<!-- search form  -->
+
+<div class="search-form">
+
+    <div id="close-search" class="fas fa-times"></div>
+
+    </div>
+    <section class="home" id="home">
+    <div class="box sexto"  >
+        <div class="content">
+          
+            <h3>Galeria </h3>
             
-            <footer id="main-footer">
-                <p>&copy; 2022 <a href="">morixaudiovisual.com</a></p>
-              </footer>
-       
+        </div>
+    </div> 
+</section>
+<section class="galeria">
+      <h2>Egresados</h2>
+ 
+       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../images/egre.JPG" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../images/dos.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/tres.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/cuatro.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/cinco.JPG" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/seis.JPG" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" width="20px"  aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+  <h2>XV AÑOS</h2>
+
+   <div id="carouselExampleInterval2" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../images/quince1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../images/quince2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/quince3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/quince4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/quince5.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/quince6.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</section>
+  <!-- Comienzo del footer  -->
+  <section class="footer">
+    
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Menú</h3>
+            <a href="../index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="contacto.html">Contacto</a>
+
+        </div>
+
+        <div class="box">
+            <h3>Info de contacto</h3>
+            <a href="https://api.whatsapp.com/send?phone=5492920630414"  target="_blank"> <i class="fas fa-phone"></i> +54-2920-630414 </a>
+            <a href="mailto:morixaudiovisual@gmail.com" target="_blank"> <i class="fas fa-envelope"></i> morixaudiovisual@gmail.com </a>
+            <a href="https://goo.gl/maps/EFuhwPjUEtjekAq96" target="_blank"> <i class="fas fa-map"></i> Viedma, Rio Negro </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/morixaudiovisual" target="_blank"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="https://youtube.com/@morixaudiovisual" target="_blank"> <i class="fab fa-youtube"></i> youtube </a>
+            <a href="https://www.instagram.com/morixaudiovisual/" target="_blank"> <i class="fab fa-instagram"></i> instagram </a>
+
+
+        </div>
+
+    </div>
+
+    <div class="credit">creado por <span>Cristian Herrera</span> | Todos los derechos reservados!</div>
+
+</section>
+<!-- Cierre del footer-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
-</html>

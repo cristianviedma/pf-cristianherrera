@@ -1,0 +1,106 @@
+@media screen and (max-width: 1000px){
+    .tabla{
+        width: 45%;
+        max-width:none;
+        margin-bottom: 40px;
+        flex-grow: initial;
+    }
+  }
+  
+  @media screen and (max-width: 700px){
+    .tabla{
+        width: 45%;
+        padding:30px;
+    }
+    .tabla > h2{
+        margin-top:40px;
+    }
+    
+    }
+  
+  
+  @media screen and (max-width:550px){
+    .tabla{
+        width: 85%;
+        padding: 20px;
+        display: block;
+    }
+    .promo h2 {
+      width: 3rem;
+      display: block;
+      padding-top: 10rem;
+      text-align: center;
+      padding-bottom: 10rem;
+  }
+  }
+
+  @media (max-width: 1200px) {
+    .header {
+      padding: 2rem;
+    }
+    section {
+      padding: 3rem 2rem;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    html {
+      font-size: 55%;
+      scroll-padding-top: 7rem;
+    }
+    .home .box {
+      padding: 2rem;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      background-position: center;
+    }
+    .home .box.second {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      background-position: center;
+        } 
+  
+    .home .box.tercer {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      background-position: center;
+    }
+    .home .box.cuarto {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      background-position: center;
+    }
+    .home .box.quinto {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      background-position: center;
+    }
+    .home .box.sexto{
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      background-position: center;
+    }
+    .home .box.septimo{
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      background-position: center;
+    }
+    .home .box .content {
+      text-align: center;
+    }
+    .home .box .content span {
+      font-size: 3rem;
+    }
+    .home .box .content h3 {
+      font-size: 4rem;
+    }
+    
+  }
+  

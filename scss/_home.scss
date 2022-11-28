@@ -1,0 +1,91 @@
+.home {
+    padding: 0;
+  
+    .box {
+      min-height: 100vh;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      background-size: cover;
+      background-position: center;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/Inicio.jpg");
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      padding: 2rem 9%;
+  
+      &.second {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/inicio2.jpg");
+      }
+  
+      &.tercer {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/inicio3.jpg");
+      }
+    }
+  
+    &.box.tercer span {
+      color:$color-terciario;
+    }
+  
+    .box {
+      &.cuarto {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/quienessomos.jpg");
+      }
+  
+      &.quinto {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/servicios2.jpg");
+      }
+  
+      &.sexto {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/servicios3.jpg");
+      }
+  
+      &.septimo {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/contacto.jpg");
+      }
+  
+      .content {
+        width: 50rem;
+  
+        span {
+          font-size: 4rem;
+          color:$color-primario;
+        }
+  
+        h3 {
+          font-size: 5rem;
+          color: $color-terciario;
+          padding-top: .5rem;
+          text-transform: uppercase;
+        }
+  
+        p {
+          line-height: 2;
+          color:$color-primario;
+          font-size: 1.5rem;
+          padding: 1rem 0;
+        }
+      }
+    }
+  }

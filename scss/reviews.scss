@@ -1,0 +1,39 @@
+.reviews .slide .text::before {
+    content: '';
+    position: absolute;
+    bottom: -1.5rem;
+    left: .7rem;
+    height: 3rem;
+    width: 3rem;
+    background: #eee;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  
+  .reviews .slide .user {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1rem;
+  }
+  
+  .reviews .slide .user img {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+  }
+  
+  .reviews .slide .user h3 {
+    font-size: 2rem;
+    color: #10221b;
+  }
+  
+  .reviews .slide .user span {
+    color: #219150;
+    font-size: 1.5rem;
+  }
+  
+  

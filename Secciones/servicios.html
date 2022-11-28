@@ -5,70 +5,175 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="./css/normalize.css">
-<link rel="stylesheet" href="../css/estilos.css">
-    <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">>
+    <link rel="icon" type="image/jpg" href="../images/fabicon.ico"/>
+    <meta name="description"
+    content="Hola,somos un equipo de fotógrafos de la ciudad de viedma, que brindan servicios audiovisuales para tus eventos">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="../css/estilo.css">
     
 </head>
 <body>
-    <body>
-        <header >
-            <nav class="nav">
-                 <ul class="menu">
-                    <li><a href="./nosotros.html" class="nav-link">Nosotros</a></li>
-                    <li><a href="./servicios.html" class="nav-link">Servicios</a></li>
-                    <li><a href="../index.html"><img src="../Imagenes/morix1.png" height="50px"></a></li>
-                    <li><a href="./galeria.html" class="nav-link">Galeria</a></li>
-                    <li><a href="./contacto.html" class="nav-link">Contacto</a></li>
-                 </ul>
-             </nav>
-         </header>
-         <main>
-            <section id="Fondo__quienessomos">
-                    <img id="Fondo__quienessomos__servicios" src="../Imagenes/servicios1.jpg" class="img-fluid" alt="...">
-                            <p class="Fondo__titulo__servicios">Servicios</p>
-            </section>
-            <main>
-                <div class="contenedor">
-                    <div class="contenedor-eventos">
-                        <div class="card" style="background-image: url(../Imagenes/boda.jpg)">
-                            <div class="textos">
-                                <h3>Bodas</h3>
-                            </div>
-                        </div>
-                        <div class="card" style="background-image: url(../Imagenes/streaming.jpg)">
-                            <div class="textos">
-                                <h3>Streaming</h3>
-                            </div>
-                        </div>
-                        <div class="card" style="background-image: url(../Imagenes/egresados.jpg)">
-                            <div class="textos">
-                                <h3>Egresados</h3>
-                            </div>
-                        </div>
+
+    <!-- comienza el header  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <img src="../images/fabicon.ico" alt="" height="40px"></i> Morix Audiovisual </a>
+
+    <nav class="navbar">
+        <div id="nav-close" class="fas fa-times"></div>
+        <a href="../index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="contacto.html">Contacto</a>
+        
+    </nav>
+    
+  </header>
+
+<!-- termina el header  -->
+
+<!-- search form  -->
+
+<div class="search-form">
+
+    <div id="close-search" class="fas fa-times"></div>
+
+    </div>
+    <section class="home" id="home">
+    <div class="box quinto"  >
+        <div class="content">
+          
+            <h3>Servicios </h3>
             
-                        <div class="card" style="background-image: url(../Imagenes/quince.jpg)">
-                            <div class="textos">
-                                <h3>XV Años</h3>
-                            </div>
-                        </div>
-                        <div class="card" style="background-image: url(../Imagenes/book.jpg)">
-                            <div class="textos">
-                                <h3>Book</h3>
-                            </div>
-                        </div>
-                        <div class="card" style="background-image: url(../Imagenes/eventos.jpg)">
-                            <div class="textos">
-                                <h3>Eventos</h3>
-                            </div>
-                        </div>
-             </div>
-        </main>
-    <footer id="main-footer">
-            <p>&copy; 2022 <a href="">morixaudiovisual.com</a></p>
-    </footer>
+        </div>
+    </div> 
+</section>
+
+ 
+        
+    <!-- packages section starts  -->
+    
+    <section class="packages" id="packages">
+    
+        <h1 class="heading">Te ofrecemos..</h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <div class="image">
+                    <img src="../images/egresados.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Egresados</h3>
+                    <p>Cobertura fotográfica y filmación de todos sus eventos!</p>
+                    
+                    <a href="#" class="btn">Más Info</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="../images/quince2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>XV Años</h3>
+                    <p>Cobertura fotográfica y filmación de tu noche mas soñada!</p>
+                    <a href="#" class="btn">Más Info</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="../images/boda.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Boda</h3>
+                    <p>Cobertura fotográfica y filmación de cada momento especial para ustedes!</p>
+                    <a href="#" class="btn">Más Info</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="../images/Videclip.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Videoclip</h3>
+                    <p>Grabamos y editamos el videoclip de tu banda!</p>
+                    <a href="#" class="btn">Más Info</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="../images/streaming.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Streaming</h3>
+                    <p>Transmiti en vivo tu evento con la mejor calidad y equipamiento</p>
+                    <a href="#" class="btn">Más Info</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="../images/book.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Book Fotográfico</h3>
+                    <p>No pierdas la posibilidad de tener tu sesión de fotos particular</p>
+                    <a href="#" class="btn">Más Info</a>
+                </div>
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    
+    <!-- Comienzo del footer  -->
+    <section class="footer">
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>Menú</h3>
+                <a href="../index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="contacto.html">Contacto</a>
+    
+            </div>
+    
+            <div class="box">
+                <h3>Info de contacto</h3>
+                <a href="https://api.whatsapp.com/send?phone=5492920630414"  target="_blank"> <i class="fas fa-phone"></i> +54-2920-630414 </a>
+                <a href="mailto:morixaudiovisual@gmail.com" target="_blank"> <i class="fas fa-envelope"></i> morixaudiovisual@gmail.com </a>
+                <a href="https://goo.gl/maps/EFuhwPjUEtjekAq96" target="_blank"> <i class="fas fa-map"></i> Viedma, Rio Negro </a>
+            </div>
+    
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com/morixaudiovisual" target="_blank"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="https://youtube.com/@morixaudiovisual" target="_blank"> <i class="fab fa-youtube"></i> youtube </a>
+                <a href="https://www.instagram.com/morixaudiovisual/" target="_blank"> <i class="fab fa-instagram"></i> instagram </a>
+    
+    
+            </div>
+    
+        </div>
+    
+        <div class="credit">creado por <span>Cristian Herrera</span> | Todos los derechos reservados!</div>
+    
+    </section>
+    <!-- Cierre del footer-->
 </body>
 </html>

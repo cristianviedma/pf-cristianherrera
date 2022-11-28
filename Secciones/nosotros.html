@@ -5,42 +5,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="./css/normalize.css">
-<link rel="stylesheet" href="../css/estilos.css">
-    <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="../images/fabicon.ico"/>
+    <meta name="description"
+    content="Hola,somos un equipo de fotógrafos de la ciudad de viedma, que brindan servicios audiovisuales para tus eventos">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="../css/estilo.css">
+    
 </head>
 <body>
-    <header >
-        <nav class="nav">
-             <ul class="menu">
-                <li><a href="./nosotros.html" class="nav-link">Nosotros</a></li>
-                <li><a href="./servicios.html" class="nav-link">Servicios</a></li>
-                <li><a href="../index.html"><img src="../Imagenes/morix1.png" height="50px"></a></li>
-                <li><a href="./galeria.html" class="nav-link">Galeria</a></li>
-                <li><a href="./contacto.html" class="nav-link">Contacto</a></li>
-             </ul>
-         </nav>
-     </header>
-     <main>
-        <section id="Fondo__quienessomos">
-                <img src="../Imagenes/quienessomos.jpg" class="img-fluid" alt="...">
-                       <div class="Fondo__contenedor">
-                        <p class="Fondo__titulo">Quiénes somos?</p>
-                       </div>               
-        </section>
-        <section id="texto">
-                <div id="texto__quienessomos">
-                        <p id="section__negro__texto1">Somos una empresa de la ciudad de Viedma, Rio Negro, 
-                            que ofrece servicios audiovisuales para cada uno de tus eventos en todo el pais.
-                             Nuestro objetivo, es acompañarte en cada uno de ellos, ofreciendote la mejor calidad y la tranquilidad que estas en buenas manos. </p>
-                </div>
-        </section>
-    </main>
-    <footer id="main-footer">
-        <p>&copy; 2022 <a href="">morixaudiovisual.com</a></p>
-      </footer>
+
+    <!-- comienza el header  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <img src="../images/fabicon.ico" alt="" height="40px"></i> Morix Audiovisual </a>
+
+    <nav class="navbar">
+        <div id="nav-close" class="fas fa-times"></div>
+        <a href="../index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="contacto.html">Contacto</a>
+        
+    </nav>
+    
+  </header>
+
+<!-- termina el header  -->
+
+<!-- search form  -->
+
+<div class="search-form">
+
+    <div id="close-search" class="fas fa-times"></div>
+
+    </div>
+    <section class="home" id="home">
+    <div class="box cuarto"  >
+        <div class="content">
+          
+            <h3>¿Quienes somos? </h3>
+            
+        </div>
+    </div> 
+</section>
+<section class="about" id="about">
+
+        <div class="image">
+            <img src="../images/yo.JPG" alt="">
+        </div>
+    
+        <div class="content">
+            <h3>Hola, como estás?</h3>
+            <p>Me llamo Cristian Herrera, fotógrafo de Morix Audiovisual y te doy la bienvenida a nuestro espacio. Somos un grupo de fotógrafos de la ciudad de Viedma, Rio Negro. Y nuestro gran objetivo, es acompañarte en los momentos más importantes de tu vida, generando el mejor de los recueros con la mejor calidad.Nos estamos leyendo!! </p>
+           
+            <a href="#" class="btn">Quiero saber más!</a>
+        </div>
+    
+    </section>
+    
+    <!-- about section ends -->
+    
+    <!-- Comienzo del footer  -->
+    <section class="footer">
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>Menú</h3>
+                <a href="../index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="contacto.html">Contacto</a>
+    
+            </div>
+    
+            <div class="box">
+                <h3>Info de contacto</h3>
+                <a href="https://api.whatsapp.com/send?phone=5492920630414"  target="_blank"> <i class="fas fa-phone"></i> +54-2920-630414 </a>
+                <a href="mailto:morixaudiovisual@gmail.com" target="_blank"> <i class="fas fa-envelope"></i> morixaudiovisual@gmail.com </a>
+                <a href="https://goo.gl/maps/EFuhwPjUEtjekAq96" target="_blank"> <i class="fas fa-map"></i> Viedma, Rio Negro </a>
+            </div>
+    
+            <div class="box">
+                <h3>Seguinos</h3>
+                <a href="https://www.facebook.com/morixaudiovisual" target="_blank"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="https://youtube.com/@morixaudiovisual" target="_blank"> <i class="fab fa-youtube"></i> youtube </a>
+                <a href="https://www.instagram.com/morixaudiovisual/" target="_blank"> <i class="fab fa-instagram"></i> instagram </a>
+    
+    
+            </div>
+    
+        </div>
+    
+        <div class="credit">creado por <span>Cristian Herrera</span> | Todos los derechos reservados!</div>
+    
+    </section>
+    <!-- Cierre del footer-->
+    
     </body>
-</html>
+    
+    </html>
